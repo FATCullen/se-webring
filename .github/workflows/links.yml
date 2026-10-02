@@ -19,7 +19,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: false
-          workingDirectory: js/
+          workingDirectory: ./js
           output: ./lychee/out.md
           debug: true
 
