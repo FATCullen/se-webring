@@ -21,7 +21,6 @@ jobs:
           fail: false
           output: ./lychee/out.md
           args: './js/sites.js --insecure=true'
-          debug: true
 
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
