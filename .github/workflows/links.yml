@@ -19,8 +19,8 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: false
-          workingDirectory: ./js
           output: ./lychee/out.md
+          args: ./js/sites.js
           debug: true
 
       - name: Create Issue From File
