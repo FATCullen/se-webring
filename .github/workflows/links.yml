@@ -20,7 +20,7 @@ jobs:
         with:
           fail: false
           output: ./lychee/out.md
-          args: './js/sites.js'
+          args: './js/sites.js --insecure=true'
           debug: true
 
       - name: Create Issue From File
